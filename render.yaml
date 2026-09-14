@@ -13,4 +13,4 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: FRONTEND_ORIGIN
-        sync: false
+        value: https://whiteboard-frontend-liart.vercel.app
